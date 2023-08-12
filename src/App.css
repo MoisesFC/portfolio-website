@@ -2,6 +2,41 @@
   text-align: center;
 }
 
+body{
+background-color: #f6facf;
+}
+
+.name-brand{
+  font-family:'Lilita One';
+  font-size: x-large;
+}
+
+.custom-link{
+  text-decoration: none;
+  color: black;
+  font-size: larger;
+  font-weight: 400;
+  border-bottom: 3px dashed #000000;
+}
+
+.custom-link-sm{
+  text-decoration: none;
+  color: black;
+  font-size:small;
+  font-weight: 300;
+  border-bottom: 3px dashed #424242;
+}
+
+.custom-link:hover{
+  background-color: #fcb902;
+  font-weight: bold;
+}
+
+.custom-link-sm:hover{
+  background-color: #fcb902;
+  font-weight: bold;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +71,44 @@
     transform: rotate(360deg);
   }
 }
+
+
+.custom-card {
+  background: none; /* Remove background color */
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove shadow if present */
+  margin: 0; /* Remove default margin */
+}
+
+.cover-text {
+  font-size: 15px; /* Default font size for extra small screens */
+  color: #333;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Media query for small screens */
+@media (min-width: 576px) and (max-width: 767px) {
+  .cover-text{
+    font-size: 20px; /* Adjust font size for small screens */
+    text-align: left;
+  }
+}
+
+/* Media query for medium screens */
+@media (min-width: 768px) and (max-width: 991px) {
+  .cover-text {
+    font-size: 35px; /* Adjust font size for medium screens */
+    text-align: left;
+  }
+}
+
+/* Media query for large screens */
+@media (min-width: 992px) {
+  .cover-text {
+    font-size: 50px; /* Adjust font size for large screens */
+    text-align: left;
+  }
+}
+
