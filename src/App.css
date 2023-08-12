@@ -81,17 +81,18 @@ background-color: #f6facf;
 }
 
 .cover-text {
-  font-size: 15px; /* Default font size for extra small screens */
+  font-size: 25px; /* Default font size for extra small screens */
   color: #333;
   line-height: 1.5;
   text-align: left;
   font-weight: bold;
+  white-space: pre-line;
 }
 
 /* Media query for small screens */
 @media (min-width: 576px) and (max-width: 767px) {
   .cover-text{
-    font-size: 20px; /* Adjust font size for small screens */
+    font-size: 25px; /* Adjust font size for small screens */
     text-align: left;
   }
 }
@@ -110,5 +111,11 @@ background-color: #f6facf;
     font-size: 50px; /* Adjust font size for large screens */
     text-align: left;
   }
+}
+
+.no-background-border {
+  background: none;
+  border: none;
+  box-shadow: none;
 }
 
