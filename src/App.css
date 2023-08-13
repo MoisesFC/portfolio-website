@@ -119,3 +119,7 @@ background-color: #f6facf;
   box-shadow: none;
 }
 
+
+.center-text {
+  text-align: center !important;
+}

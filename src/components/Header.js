@@ -1,5 +1,5 @@
 import { Container, Row, Col, Link } from "react-bootstrap";
-import logo from "../img/logo-removebg-preview (1).png"
+import logo from "../img/logo-removebg-preview (1).png";
 
 
 const Header = () => {
@@ -20,7 +20,8 @@ const Header = () => {
                     <a className="custom-link" href="#">EMAIL ME</a>
                 </Col>
                 <Col xs={2} className="text-center d-flex align-items-center justify-content-center">
-                    <a className="custom-link" href="#">GET RESUME</a>
+                <a className="custom-link" href="/files/Resume-Moises-Figueroa.pdf" download>GET RESUME</a>
+
                 </Col>
             </Row>
             {/* Second Row (All screens) */}

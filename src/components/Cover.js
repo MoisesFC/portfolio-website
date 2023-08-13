@@ -41,7 +41,6 @@ const Cover = () => {
                             {typedText}
                         </Card.Text>
                 </Card>
-                <hr/>
             </Container>
             
         </>
