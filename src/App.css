@@ -123,3 +123,7 @@ background-color: #f6facf;
 .center-text {
   text-align: center !important;
 }
+
+.underline {
+    text-decoration: underline;
+  }

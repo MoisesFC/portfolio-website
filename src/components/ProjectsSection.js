@@ -91,7 +91,7 @@ const ProjectsSection = () => {
                 <Modal.Body>
                     The following project is so awesome that it got flagged by Google.
                     I assume this has to do with the fact that this is a mock website for a fake bank, making them think that this is a phishing site.
-                    To view this project, click on the Details button and then click on the visit this unsafe site link. I am currently working with Google to have the flag removed.
+                    If you get a red warning screen, click on the <strong>Details</strong> button and then click on the <span className="underline">visit this unsafe site</span> link. I am currently working with Google to have the flag removed.
                     <br/>
                     If you do not feel safe visiting the website, click <a href="google.com">here</a> to view some screenshots instead.
                 </Modal.Body>
