@@ -50,13 +50,13 @@ function App() {
               {/* <a className="custom-link" href="#">ABOUT ME</a> */}
             </Col>
             <Col xs={3} className="text-center">
-              <a className="custom-link-sm" href="#">PROJECTS</a>
+              <a className="custom-link-sm" href="#projects">PROJECTS</a>
             </Col>
             <Col xs={3} className="text-center">
               <a className="custom-link-sm" href="mailto:figueroa.abe@outlook.com">EMAIL ME</a>
             </Col>
             <Col xs={3} className="text-center">
-              <a className="custom-link-sm" href={ResumePDF} download="Resume - Moises Figueroa" target="_blank" >GET RESUME</a>
+              <a className="custom-link-sm" href={ResumePDF} download="Resume - Moises Figueroa" target="_blank" >RESUME</a>
             </Col>
           </Row>
         </Container>

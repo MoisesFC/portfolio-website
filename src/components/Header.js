@@ -33,17 +33,16 @@ const Header = () => {
             </Row>
             <Row className="pt-3 d-md-none">
                 <Col xs={3} className="text-center">
-
                     <a className="custom-link-sm" href="#">ABOUT ME</a>
                 </Col>
                 <Col xs={3} className="text-center">
-                    <a className="custom-link-sm" href="#">PROJECTS</a>
+                    <a className="custom-link-sm" href="#projects">PROJECTS</a>
                 </Col>
                 <Col xs={3} className="text-center">
                     <a className="custom-link-sm" href="mailto:figueroa.abe@outlook.com">EMAIL ME</a>
                 </Col>
                 <Col xs={3} className="text-center">
-                    <a className="custom-link" href={ResumePDF} download="Resume - Moises Figueroa" target="_blank" >GET RESUME</a>
+                    <a className="custom-link" href={ResumePDF} download="Resume - Moises Figueroa" target="_blank" >RESUME</a>
                 </Col>
             </Row>
         </Container>
@@ -52,7 +51,6 @@ const Header = () => {
         <SkillsSection id="skills"/>
         <span id="projects"><ProjectsSection id="projects"/>
         </span>
-        <span id="aboutMe"></span>
         </>
     )
 };
