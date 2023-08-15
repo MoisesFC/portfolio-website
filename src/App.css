@@ -127,3 +127,9 @@ background-color: #f6facf;
 .underline {
     text-decoration: underline;
   }
+
+  .modalImgTxt {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+  }
