@@ -17,13 +17,13 @@ function App() {
           {/* First Row (Medium and larger screens) */}
           <Row className="pt-5 d-none d-md-flex">
             <Col xs={4} className="name-brand d-flex align-items-center">
-              <h1 className="mx-auto"> Moises Figueroa</h1>
+              <h1 className="mx-auto disappearing-name"> Moises Figueroa</h1>
             </Col>
             <Col xs={2} className="text-center d-flex align-items-center justify-content-center">
               <Col>
-                <a href="https://www.linkedin.com/in/moisesfc" target="_blank"><BsLinkedin style={{ fontSize: '40px', color: 'blue' }}/></a></Col>
+                <a className="social-link" href="https://www.linkedin.com/in/moisesfc" target="_blank" ><BsLinkedin style={{ fontSize: '40px', color: '#007FFF ' }}/></a></Col>
               <Col>
-                <a href="https://www.github.com/moisesfc" target="_blank"><BsGithub  style={{ fontSize: '40px', color: 'black' }}/></a></Col>
+                <a className="social-link" href="https://www.github.com/moisesfc" target="_blank"><BsGithub  style={{ fontSize: '40px', color: 'black' }}/></a></Col>
               {/* <a className="custom-link" href="#">ABOUT ME</a> */}
             </Col>
             <Col xs={2} className="text-center d-flex align-items-center justify-content-center">
