@@ -79,7 +79,7 @@ const ProjectsSection = () => {
                             <hr />
                             <Card.Title>Summit Bank</Card.Title>
                             <Card.Text>
-                                Mock site for a fictitional bank. This project features the front end of a bank, which serves as a landing page, showing potential customers the produts that the bank offers. This site also includes a functional retirement calculator under the Retirement tab. Check it out!
+                            Mock Site for a Fictitious Bank. This project features the front end of a bank, serving as a landing page that showcases potential customers the products that the bank offers. The site also includes a functional retirement calculator under the 'Retirement' tab. Check it out!
                             </Card.Text>
                             <a href="#" onClick={openModal}><Button >Go to Project</Button></a>
                         </Card.Body>
