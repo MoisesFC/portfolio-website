@@ -7,10 +7,13 @@ import expressLogo from "../img/expressJS.png";
 import firebaseLogo from "../img/firebaseLogo.png";
 import htmlLogo from "../img/htmlLogo.png";
 import cssLogo from "../img/css-logo.png";
-import reduxLogo from "../img/reduxLogo.png";
+import reduxLogo from "../img/ReduxImg.png";
 import gcpLogo from "../img/gcpLogo.png";
 import gitLogo from "../img/gitLogo.png";
 import npmLogo from "../img/npmLogo.png";
+import bootstrapLogo from "../img/bootstrapImg.png";
+import pythonLogo from "../img/PythonImg.png";
+import sqlLogo from "../img/sqlImage.png";
 
 
 const SkillsSection = () => {
@@ -67,17 +70,17 @@ const SkillsSection = () => {
                 <Col xs={1}></Col>
                 <Col xs={2}>
                     <Card className="no-background-border">
-                        <Card.Img src={firebaseLogo} />
+                        <Card.Img src={htmlLogo} />
                         <Card.Body>
-                            <Card.Title className="d-none d-lg-block">Google Firebase</Card.Title>
+                            <Card.Title className="d-none d-lg-block">HTML</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
                 <Col xs={2}>
                     <Card className="no-background-border">
-                        <Card.Img src={htmlLogo} />
+                        <Card.Img src={firebaseLogo} />
                         <Card.Body>
-                            <Card.Title className="d-none d-lg-block">HTML</Card.Title>
+                            <Card.Title className="d-none d-lg-block">Google Firebase</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -93,7 +96,7 @@ const SkillsSection = () => {
                     <Card className="no-background-border">
                         <Card.Img src={gcpLogo} />
                         <Card.Body>
-                            <Card.Title className="d-none d-lg-block">GCP</Card.Title>
+                            <Card.Title className="d-none d-lg-block">Google Cloud Platform</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
@@ -102,6 +105,50 @@ const SkillsSection = () => {
                         <Card.Img src={npmLogo} />
                         <Card.Body>
                             <Card.Title className="d-none d-lg-block">NPM</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={1}></Col>
+            </Row>
+            <Row className="pt-5">
+                <Col xs={1}></Col>
+                <Col xs={2}>
+                    <Card className="no-background-border">
+                        <Card.Img src={cssLogo} />
+                        <Card.Body>
+                            <Card.Title className="d-none d-lg-block">CSS</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={2}>
+                    <Card className="no-background-border">
+                        <Card.Img src={reduxLogo} />
+                        <Card.Body>
+                            <Card.Title className="d-none d-lg-block">Redux</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={2}>
+                    <Card className="no-background-border">
+                        <Card.Img src={pythonLogo} />
+                        <Card.Body>
+                            <Card.Title className="d-none d-lg-block">Python</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={2}>
+                    <Card className="no-background-border">
+                        <Card.Img src={sqlLogo} />
+                        <Card.Body>
+                            <Card.Title className="d-none d-lg-block">SQL</Card.Title>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col xs={2}>
+                    <Card className="no-background-border">
+                        <Card.Img src={bootstrapLogo} />
+                        <Card.Body>
+                            <Card.Title className="d-none d-lg-block">Bootstrap</Card.Title>
                         </Card.Body>
                     </Card>
                 </Col>
