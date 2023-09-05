@@ -16,6 +16,7 @@ import pythonLogo from "../img/PythonImg.png";
 import sqlLogo from "../img/sqlImage.png";
 
 
+
 const SkillsSection = () => {
     return (
         <Container className="pt-5">

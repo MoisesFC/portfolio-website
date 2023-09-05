@@ -8,6 +8,7 @@ import SummitBankCCImg from "../img/SummitBankCC.png";
 import SummitBankHomeImg from "../img/SummiytBankHome.png";
 import SummitBankCheckingImg from "../img/SummitBankChecking.png";
 import SummitBankRetirementImg from "../img/SummitBankRetirement.png";
+import manixTintingImg from '../img/manixTintingWebsiteImg.jpg';
 
 
 const ProjectsSection = () => {
@@ -56,6 +57,7 @@ const ProjectsSection = () => {
                         </Card.Body>
                     </Card>
                 </Col>
+
                 <Col xs={12} md={6} className="pb-3">
                     <Card>
                         <a href="https://react-deploy-test-383704.web.app/" target="_blank" rel="noopener noreferrer">
@@ -74,12 +76,28 @@ const ProjectsSection = () => {
 
                 <Col xs={12} md={6} className="pb-3">
                     <Card>
+                        <a href="https://react-deploy-test-383704.web.app/" target="_blank" rel="noopener noreferrer">
+                            <Card.Img src={manixTintingImg} alt="nucampsite website thumbnail" />
+                        </a>
+                        <Card.Body style={{ minHeight: "250px" }}>
+                            <hr />
+                            <Card.Title>Manix Tinting</Card.Title>
+                            <Card.Text>
+                            Sleek and user-friendly website for Manix Tinting, a real small business specializing in professional car window tinting services. This project harnessed the power of React for a dynamic and responsive user interface, Firebase for seamless hosting, and EmailJS for efficient communication. 
+                            </Card.Text>
+                            <a href="https://www.manixtinting.com" target="_blank" rel="noopener noreferrer"><Button >Go to Project</Button></a>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                <Col xs={12} md={6} className="pb-3">
+                    <Card>
                         <a href="#" onClick={openModal}><Card.Img src={summitBankWebsiteImg} alt="nucampsite website thumbnail" /></a>
                         <Card.Body style={{ minHeight: "250px" }}>
                             <hr />
                             <Card.Title>Summit Bank</Card.Title>
                             <Card.Text>
-                            Mock Site for a Fictitious Bank. This project features the front end of a bank, serving as a landing page that showcases potential customers the products that the bank offers. The site also includes a functional retirement calculator under the 'Retirement' tab. Check it out!
+                                Mock Site for a Fictitious Bank. This project features the front end of a bank, serving as a landing page that showcases potential customers the products that the bank offers. The site also includes a functional retirement calculator under the 'Retirement' tab. Check it out!
                             </Card.Text>
                             <a href="#" onClick={openModal}><Button >Go to Project</Button></a>
                         </Card.Body>
@@ -100,7 +118,7 @@ const ProjectsSection = () => {
                 </Col>
             </Row>
             <Modal show={showWarningModal} onHide={closeModal} >
-                <Modal.Header closeButton style={{backgroundColor: "#FFC866"}}>
+                <Modal.Header closeButton style={{ backgroundColor: "#FFC866" }}>
                     <Modal.Title>Heads Up!</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
