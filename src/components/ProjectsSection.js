@@ -41,7 +41,7 @@ const ProjectsSection = () => {
             <hr />
             <Row>
                 <Col xs={12} md={6} className="pb-3">
-                    <Card>
+                    <Card className="custom-project-card">
                         <a href="https://react-blog-a5f95.ue.r.appspot.com/" target="_blank" rel="noopener noreferrer">
                             <Card.Img src={blogAppWebsiteImg} alt="react blog Moises website thumbnail" />
                         </a>
@@ -59,7 +59,7 @@ const ProjectsSection = () => {
                 </Col>
 
                 <Col xs={12} md={6} className="pb-3">
-                    <Card>
+                    <Card className="custom-project-card">
                         <a href="https://react-deploy-test-383704.web.app/" target="_blank" rel="noopener noreferrer">
                             <Card.Img src={nucampsiteWebsiteImg} alt="nucampsite website thumbnail" />
                         </a>
@@ -75,7 +75,7 @@ const ProjectsSection = () => {
                 </Col>
 
                 <Col xs={12} md={6} className="pb-3">
-                    <Card>
+                    <Card className="custom-project-card">
                         <a href="https://www.manixtinting.com" target="_blank" rel="noopener noreferrer">
                             <Card.Img src={manixTintingImg} alt="Manix Tinting website thumbnail" />
                         </a>
@@ -91,7 +91,7 @@ const ProjectsSection = () => {
                 </Col>
 
                 <Col xs={12} md={6} className="pb-3">
-                    <Card>
+                    <Card className="custom-project-card">
                         <a href="https://tech-temple.web.app/" target="_blank"><Card.Img src={techTempleImg} alt="tech-temple website thumbnail" /></a>
                         <Card.Body style={{ minHeight: "250px" }}>
                             <hr />
@@ -105,7 +105,7 @@ const ProjectsSection = () => {
                 </Col>
 
                 <Col xs={12} md={6} className="pb-3">
-                    <Card>
+                    <Card className="custom-project-card">
                         <a href="#" onClick={openModal}><Card.Img src={summitBankWebsiteImg} alt="summit bank website thumbnail" /></a>
                         <Card.Body style={{ minHeight: "250px" }}>
                             <hr />
@@ -118,7 +118,7 @@ const ProjectsSection = () => {
                     </Card>
                 </Col>
                 <Col xs={12} md={6} className="pb-3">
-                    <Card>
+                    <Card className="custom-project-card">
                         <a href="https://budget-tracker-afeab.web.app/" target="_blank" rel="noopener noreferrer"><Card.Img src={budgetPlanningWebsiteImg} alt="budget planner website thumbnail" /></a>
                         <Card.Body style={{ minHeight: "250px" }}>
                             <hr />

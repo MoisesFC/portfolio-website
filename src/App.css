@@ -181,3 +181,14 @@ background-color: #f6facf;
 .disappearing-name:hover {
   animation: nameAnimation 1s ease-in-out;
 }
+
+.custom-project-card {
+  border: 5px solid transparent; 
+  transition: border-color 0.3s; 
+  background-color: white;
+  border-radius: 2%;
+}
+
+.custom-project-card:hover {
+  border-color: rgb(101, 134, 223); 
+}
