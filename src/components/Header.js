@@ -4,6 +4,7 @@ import ProjectsSection from "./ProjectsSection";
 import Cover from "./Cover";
 import SkillsSection from "./SkillsSection";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
+import ContactForm from "./ContactForm";
 
 const Header = () => {
     return (
@@ -61,6 +62,7 @@ const Header = () => {
           <SkillsSection id="skills" />
           <span id="projects"><ProjectsSection id="projects" />
           </span>
+          <span><ContactForm/></span>
         </>
       </div>
     )
