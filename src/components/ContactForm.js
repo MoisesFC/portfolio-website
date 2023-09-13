@@ -42,14 +42,14 @@ const ContactForm = () => {
                     <input type="phone" required name="from_phone" />
                     <label  style={{ color: 'black', textAlign: 'center' }}>Message</label>
                     <textarea required name="message" />
-                    <input className='mt-3' type="submit" value="Send" />
+                    <input variant="secondary" className='mt-3' type="submit" value="Send" />
                 </form>
 
                 <Modal show={showModal} onHide={() => setShowModal(false)} backdrop="static">
                     <Modal.Header closeButton>
-                        <Modal.Title>Form Submitted</Modal.Title>
+                        <Modal.Title>Message Sent!</Modal.Title>
                     </Modal.Header>
-                    <Modal.Body><strong>Thank You!</strong> <br />I have received your message and reach out to you soon.</Modal.Body>
+                    <Modal.Body><strong>Thank You!</strong> <br />I have received your message and will reach out to you soon.</Modal.Body>
                     <Modal.Footer>
                         <Button variant="secondary" onClick={() => setShowModal(false)}>
                             Close
